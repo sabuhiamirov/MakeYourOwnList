@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="pdTcpIpService">
+      <HintPath>..\..\ECR Windows Simulator\ECR Windows Simulator\bin\Debug\netcoreapp3.1\pdTcpIpService.dll</HintPath>
+    </Reference>
+    <Reference Include="testDll">
+      <HintPath>..\..\testDll\testDll\bin\Debug\netcoreapp3.1\testDll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
